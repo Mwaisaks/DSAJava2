@@ -2,7 +2,8 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
-        System.out.println(add(5, 9));
+        System.out.println("Addition" + add(5, 9));
+        System.out.println("Multiplication: " + multiply(5, 9));
     }
 
 
@@ -10,5 +11,7 @@ public class Main {
         return a + b;
     }
 
-   // public void
+    public static int multiply(int x, int y){
+        return x * y;
+    }
 }
